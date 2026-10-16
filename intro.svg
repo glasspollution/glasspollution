@@ -13,10 +13,6 @@
     @keyframes avatar{0%,50%{opacity:0;transform:translateY(40px)}58%,88%{opacity:1;transform:translateY(0)}94%,100%{opacity:0;transform:translateY(0)}}
     #card{animation:card 16s cubic-bezier(.2,.9,.3,1.2) infinite}
     @keyframes card{0%,56%{opacity:0;transform:translateY(16px)}64%,88%{opacity:1;transform:translateY(0)}94%,100%{opacity:0;transform:translateY(0)}}
-    @media (prefers-reduced-motion:reduce){
-      #crowd{animation:none;opacity:0}
-      #avatar,#card{animation:none;opacity:1;transform:none}
-    }
     text{font-family:ui-monospace, SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace;font-size:14px;fill:#0a0a0a}
     .lbl{fill:#000;opacity:.45}
     .b{font-weight:700}
